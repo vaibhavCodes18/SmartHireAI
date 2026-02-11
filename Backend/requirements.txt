@@ -1,24 +1,29 @@
-# --- Core API Framework ---
+# --- Backend API Framework ---
 fastapi==0.109.2
 uvicorn[standard]==0.27.1
 python-multipart==0.0.9
 pydantic==2.6.1
 
-# --- PDF Processing ---
-pymupdf==1.23.21
+# --- Database Layer ---
+sqlalchemy==2.0.25
+chromadb==0.4.22
 
-# --- NLP & Text Cleaning ---
+# --- PDF & NLP Processing ---
+pymupdf==1.23.21
 spacy==3.7.4
 
-# --- AI & Vector Embeddings ---
+# --- AI & Embeddings ---
 sentence-transformers==2.3.1
 torch==2.2.0
 transformers==4.37.2
 
-# --- Math & ML Logic ---
-scikit-learn==1.4.0
+# --- Machine Learning & Data Science ---
+# NumPy is strictly pinned below 2.0 to prevent breaking ML libraries
 numpy==1.26.4
 pandas==2.2.0
+scikit-learn==1.4.0
 
-# --- Vector Database ---
-chromadb==0.4.22
+# --- Jupyter & Visualization (For Notebook) ---
+notebook==7.0.7
+matplotlib==3.8.2
+seaborn==0.13.2
