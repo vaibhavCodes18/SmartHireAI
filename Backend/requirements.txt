@@ -27,3 +27,5 @@ scikit-learn==1.4.0
 notebook==7.0.7
 matplotlib==3.8.2
 seaborn==0.13.2
+fitz
+pip install PyMuPDF==1.23.21
